@@ -1,0 +1,54 @@
+.main{
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 40%;
+    padding: 10px 50px;
+    font-weight: bold;
+}
+.label{
+    padding-right: 90px;
+}
+.form select,.form textarea,.form input{
+    padding: 3px;
+    margin: 7px;
+}
+.label-age{
+    padding-right: 140px;
+}
+.label-email{
+padding-right: 70px;
+}
+.label-pass{
+    padding-right: 102px;
+}
+.label-con{
+    padding-right: 46px;
+}
+.label-d{
+    padding-right: 85px;
+}
+.label-p{
+    padding-right: 72px;
+}
+.label-a{
+    padding-right: 117px;
+}
+.label-s{
+    padding-right: 132px;
+}
+.label-pin{
+    padding-right: 108px;
+}
+.label-c{
+    padding-right: 110px;
+}
+.label-g{
+    padding-right: 120px;
+}
+.btn{
+    margin: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}

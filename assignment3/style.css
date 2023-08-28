@@ -1,0 +1,65 @@
+.container{
+    width: 800px;
+    margin: 30px auto;
+    height: 1500px;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 1px 1px 15px 8px rgb(125, 121, 121);
+}
+.img{
+    float: right;
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 160px;
+}
+.info,.work,.edu,.edu-data,.org,.skills{
+    display: flex;
+}
+.contact{
+    margin-top: 15px;
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+}
+.contact img{
+    margin-right: 20px;
+    height: 20px;
+    padding-top:17px ;
+}
+
+.mail,.home,.linedin{
+    padding-left: 70px;
+    display: flex;
+}
+.mail p,.home p,.linedin p{
+    margin-left:15px;
+    margin-top: 26px;
+}
+.work img,.edu img,.org img,.skills img{
+    padding-right: 20px;
+    height: 25px;
+    padding-top: 17px;
+    margin-left: 20px;
+}
+.milan{
+    display: flex;
+}
+.milan h4,.milan ul{
+    margin-left: 200px;
+}
+.milan h3{
+    margin-left: 20px;
+}
+.edu-data p{
+    padding-top: 12px;
+    margin-left: 90px;
+}
+.btn{
+    margin: 15px;
+}
+.btn button{
+    margin: 15px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}

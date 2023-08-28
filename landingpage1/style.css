@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bedroom\ image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(231, 229, 229);
+}
+ul li a:hover{
+    color: rgb(117, 139, 226);
+}
+ul{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 38px;
+}
+.interior{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(231, 229, 229);
+}
+.middle{
+    width: 490px;
+    position: relative;
+    left: 550px;
+    top: 190px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(231, 229, 229);
+}
+.middle p{
+    font-size: 15px;
+
+}
+.middle h1{
+    font-size: 40px;
+}
+.watch,.subscribe{
+    border: 3px solid rgba(224, 224, 226, 0.5);
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    background: transparent;
+    color: rgb(231, 229, 229);
+}
+.watch:hover,.subscribe:hover{
+    cursor: pointer;
+    animation-name: button-hover;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    color: black;
+}
+@keyframes button-hover {
+    0%{
+        background-color:rgba(117, 139, 226,0.5) ;
+    }
+    25%{
+        background-color:rgba(117, 139, 226,0.5) ;
+    }
+}
+.watch{
+    margin-right: 15px;
+}
+.subscribe{
+    margin-left: 15px;
+}
